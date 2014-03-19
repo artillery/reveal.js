@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>GDC2014 - Artillery Games - Project Atlas</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="author" content="Thibaut Despoulain">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -64,17 +64,25 @@
 				</section>
 
 				<section>
-					<h2>Project Atlas <span class="gray">–</span> <a>Multiplayer 3D RTS</a></h2>
-					<video class="stretch" data-autoplay muted="muted" src="videos/test.mp4"></video>
+					<h1>Project Atlas</h1>
 				</section>
 
 				<section>
-					<h2>Project Atlas</h2>
+					<h2>Multiplayer 3D RTS</h2>
+					<video class="stretch" data-autoplay muted="muted" loop src="videos/battle.mp4"></video>
+				</section>
+
+				<section>
+					<h2>Project Atlas <span class="fragment">(<a>Alpha</a>)</span></h2>
 					<p class="fragment">Tons of <a>Fun</a>!</p>
-					<p class="fragment"><a>Startegic</a> and <a>dynamic</a> playstyle</p>
+					<p class="fragment"><a>Strategic</a> and <a>dynamic</a> playstyle</p>
 					<p class="fragment">Realtime <a>multiplayer</a></p>
 					<p class="fragment"><a>3D</a> graphics</p>
-					<p class="fragment">Currently in <a>Alpha</a></p>
+					<p class="fragment">Right in your <a>browser</a>!</p>
+				</section>
+
+				<section>
+					<h1>Demo time!</h1>
 				</section>
 
 				<section>
@@ -88,19 +96,19 @@
 				<section>
 					<h2>Why <a>JavaScript</a>/<a>WebGL</a>?</h2>
 					<p class="fragment">No client download, <a>instant</a> play</p>
-					<p class="fragment"><a>Consistant</a> codebase</p>
 					<p class="fragment">Extremely <a>fast iteration</a> loop</p>
-					<p class="fragment">Close enough to <a>native</a></p>
+					<p class="fragment"><a>Consistant</a> codebase</p>
+					<p class="fragment">Cross-<a>platform</a></p>
 				</section>
 
 				<section>
 					<h2>A lot of <a>stuff</a> comes for <a>free</a></h2>
-					<p class="fragment"><a>OpenGL ES</a> for graphics</p>
-					<p class="fragment"><a>WebAudio</a> for sounds</p>
-					<p class="fragment"><a>DOM</a> for HUDs</p>
+					<p class="fragment">Sounds <span class="gray">–</span> <a>WebAudio</a></p>
+					<p class="fragment">UI <span class="gray">–</span> <a>DOM</a></p>
 					<p class="fragment">DevTools <span class="gray">–</span> <a>Debugger</a>, <a>Profiler</a>, <a>Console</a></p>
 					<p class="fragment">Asset loading <span class="gray">–</span> <a><code>&lt;img&gt; &lt;audio&gt; &lt;video&gt;</code></a></p>
 				</section>
+
 				<section>
 					<h2><a>Live</a> reloading</h2>
 					<p class="fragment">Code</p>
@@ -109,18 +117,25 @@
 					<p class="fragment">Shaders</p>
 					<p class="fragment">And more...</p>
 				</section>
+
 				<section>
-					<h2>Still a long <a>way to go</a></h2>
+					<h1>Demo time!</h1>
+				</section>
+
+				<section>
+					<h2><a>Challenges</a></h2>
 					<p class="fragment">Input latency</p>
 					<p class="fragment">True Fullscreen</p>
-					<p class="fragment">Sandboxed environment</p>
+					<p class="fragment">Isolation from extensions</p>
 				</section>
+
 				<section>
-					<h2>But it's <a>getting there</a>!</h2>
+					<h2><a>Coming soon</a>...</h2>
 					<p class="fragment">WebGL 2.0</p>
 					<p class="fragment">ECMA Script 6.0</p>
 					<p class="fragment">Advanced WebWorkers</p>
 				</section>
+
 				<section>
 					<h1>The end</h1>
 					<h2>See <a>you</a> in the <a>beta</a>!</h2>
@@ -139,6 +154,8 @@
 			// Full list of configuration options available here:
 			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
+				width: 1920,
+				height: 1080,
 				controls: true,
 				progress: true,
 				history: true,
